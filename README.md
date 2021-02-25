@@ -2,7 +2,7 @@
 
 ## About
 - This is a simple challenge to test your skills on building APIs. The ClickBus services use mainly Java and Springboot technologies. However, you can use any language and framework that you feel more confortable.
-```
+```console
 https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer
 ```
 
