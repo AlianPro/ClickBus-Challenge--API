@@ -38,3 +38,9 @@ docker-compose up
 |POST|/click| 	Create a place|
 |PUT|/click/replace/{id}| 	Edit a place|
 |DELETE|/click/remove/{id}| 	Delete a place|
+
+## License 
+
+This is a simple challenge to test your skills on building APIs. The ClickBus services use mainly Java and Springboot technologies. However, you can use any language and framework that you feel more confortable.https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer
+
+This software was created for study purposes only. Feel free to try it out.
