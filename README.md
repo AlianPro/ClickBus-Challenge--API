@@ -46,6 +46,5 @@ docker-compose up
 ```
 https://github.com/RocketBus/quero-ser-clickbus/tree/master/testes/backend-developer
 ```
-```
 This software was created for study purposes only. Feel free to try it out.
-```
+
