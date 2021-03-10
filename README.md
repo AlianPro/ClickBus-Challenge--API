@@ -16,7 +16,7 @@ This project is built using:
 - Lombok
 - MapStruct
 - Swagger
-- Junit 5 - H2 to repository tests
+- Junit 5, Mockito - H2 to repository tests
 - MySql DataBase
 - Docker - docker compose
 - Prometheus
