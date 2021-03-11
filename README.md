@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/AlianPro/Clickbus-Challenge---Place-API-REST?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/AlianPro/Clickbus-Challenge---Place-API-REST?style=for-the-badge)
 # Clickbus-Challenge---Place-API-REST
 
 ## About
