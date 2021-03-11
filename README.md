@@ -37,13 +37,19 @@ docker-compose up
 
 |Method | 	Url		| 	Description |
 |-------| ------- | ----------- |
+|PUT|/click/replace/{id}| 	Edit a place|
+|POST|/click| 	Create a place|
 |GET| /v2/api-docs| 	Swagger json|
 |GET|/swagger-ui.html| 	Swagger html|
 |GET|/click/list?name| 	List places and filter them by name|
 |GET|/click/get/{id}| 	Get a specific place|
-|POST|/click| 	Create a place|
-|PUT|/click/replace/{id}| 	Edit a place|
 |DELETE|/click/remove/{id}| 	Delete a place|
+
+![Screenshot from 2021-02-25 21-22-58](https://user-images.githubusercontent.com/13512651/110831726-4bd78000-8279-11eb-8b25-d576ca567b4e.png)
+>Swagger
+
+![Screenshot from 2021-02-25 22-41-28](https://user-images.githubusercontent.com/13512651/110831744-4f6b0700-8279-11eb-8a01-903736b4a8ef.png)
+>Grafana - JVM (Micrometer)
 
 ## License 
 
