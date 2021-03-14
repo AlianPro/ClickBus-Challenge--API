@@ -9,7 +9,7 @@ services:
     ports:
     - "3306:3306"
     volumes:
-    - devdojo_data:/var/lib/mysql
+    - click_data:/var/lib/mysql
 
   prometheus:
     image: prom/prometheus:latest
@@ -28,4 +28,4 @@ services:
     - "3000:3000"
 
 volumes:
-  devdojo_data:
+  click_data:
