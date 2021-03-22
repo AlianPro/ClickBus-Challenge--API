@@ -28,6 +28,6 @@ public class Place {
     private String city;
     @NotEmpty(message = "The Place state cannot be empty")
     private String state;
-    private String createdAt;
-    private String updatedAt;
+    private String created_at;
+    private String updated_at;
 }

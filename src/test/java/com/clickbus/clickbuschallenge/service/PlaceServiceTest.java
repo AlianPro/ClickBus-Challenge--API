@@ -6,7 +6,6 @@ import com.clickbus.clickbuschallenge.repository.PlaceRepository;
 import com.clickbus.clickbuschallenge.util.PlaceCreator;
 import com.clickbus.clickbuschallenge.util.PlacePostRequestBodyCreator;
 import com.clickbus.clickbuschallenge.util.PlacePutRequestBodyCreator;
-import lombok.extern.log4j.Log4j2;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

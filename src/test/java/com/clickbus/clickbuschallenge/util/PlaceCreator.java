@@ -1,9 +1,6 @@
 package com.clickbus.clickbuschallenge.util;
 
 import com.clickbus.clickbuschallenge.domain.Place;
-import lombok.RequiredArgsConstructor;
-
-import java.time.LocalDateTime;
 
 public class PlaceCreator {
 
@@ -23,8 +20,8 @@ public class PlaceCreator {
                 .slug("GL")
                 .city("RJ")
                 .state("RJ")
-                .createdAt("2021-02-24 01:49:30")
-                .updatedAt("2021-02-24 02:49:30")
+                .created_at("2021-02-24 01:49:30")
+                .updated_at("2021-02-24 02:49:30")
                 .build();
     }
 

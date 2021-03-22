@@ -29,7 +29,7 @@ public class PlaceService {
 
     public Place save(PlacePostRequestBody placePostRequestBody){
         Place place = PlaceMapper.INSTANCE.toPlace(placePostRequestBody);
-        place.setCreatedAt(DateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
+        place.setCreated_at(DateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
         return placeRepository.save(place);
     }
 
@@ -41,8 +41,8 @@ public class PlaceService {
         Place savedPlace = getSpecificPlaceByIdOrThrowBadRequestException(id);
         Place place = PlaceMapper.INSTANCE.toPlace(placePutRequestBody);
         place.setId(savedPlace.getId());
-        place.setCreatedAt(savedPlace.getCreatedAt());
-        place.setUpdatedAt(DateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
+        place.setCreated_at(savedPlace.getCreated_at());
+        place.setUpdated_at(DateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
         placeRepository.save(place);
     }
 }
