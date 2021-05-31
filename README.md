@@ -4,7 +4,7 @@
 <details id="pt">
   <summary>PT/BR:brazil:</summary>
 
-  # Clickbus-Challenge--Place-API-REST
+# Clickbus-Challenge--API
 
 ## :page_with_curl:Sobre
 - Este é um desafio simples para testar suas habilidades na construção de APIs. Os serviços ClickBus usam principalmente tecnologias Java e Springboot. No entanto, você pode usar qualquer linguagem e framework que lhe pareça mais confortável.
@@ -22,7 +22,7 @@ Este projeto é construido usando:
 - Lombok
 - MapStruct
 - Swagger
-- Junit 5, AssertJ, Mockito - H2 to repository tests
+- Junit 5, AssertJ, Mockito - H2 para o repositório de teste
 - MySql DataBase
 - Docker - docker compose
 - Prometheus
@@ -76,7 +76,7 @@ Este software foi criado apenas para fins de estudo. Sinta-se à vontade para ex
 
 ---
 
-# Clickbus-Challenge---Place-API-REST
+# Clickbus-Challenge--API
 
 ## :page_with_curl:About
 - This is a simple challenge to test your skills on building APIs. The ClickBus services use mainly Java and Springboot technologies. However, you can use any language and framework that you feel more confortable.
